@@ -1,0 +1,207 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+
+}
+.icons{
+    margin-left: 70%;
+}
+.a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+.heroText{
+    text-align: center;
+    margin-top: 30%;
+}
+.section2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+}
+.page2{
+    
+    grid-template-rows: auto auto auto;
+    flex-direction: row;
+}
+.categories{
+ grid-template-rows: auto auto auto;
+}
+.level2{
+    display: flex;
+    flex-direction: row;
+}
+.row1{
+    display: flex;
+}
+/* .pics2{
+    display: flex;
+} */
+.patners{
+    display: flex;
+}
+
+.conclusion{
+   
+    display: grid;
+    grid-template-columns: auto auto 
+     auto;
+}
+.icons{
+    margin-left: 70%;
+}
+
+.column{
+    grid-template-rows: auto auto auto;
+}
+.forhim{
+    grid-template-columns: auto auto auto;
+}
+.him{
+    display: flex;
+    flex-direction: row;
+}
+.browse{
+    display: flex;
+    flex-direction: row;
+}
+.her{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pics{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 415px){
+    .nav{
+        border: 1px;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .icons{
+        margin-left: 70%;
+    }
+    .a{
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+    }
+    .heroText{
+        text-align: center;
+        margin-top: 30%;
+        width: 151px;
+        font-size: medium;
+    }
+    .section2{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+        
+    }
+    .page2{
+        
+        grid-template-rows: auto auto auto;
+        flex-direction: row;
+    }
+    .categories{
+     grid-template-rows: auto auto auto;
+    }
+    .level2{
+        display: flex;
+        flex-direction: row;
+    }
+    .row1{
+        display: flex;
+    }
+    /* .pics2{
+        display: flex;
+    } */
+    .patners{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .conclusion{
+       
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .icons{
+        margin-left: 70%;
+    }
+    
+    .column{
+        grid-template-rows: auto auto auto;
+    }
+    .forhim{
+        grid-template-columns: auto auto auto;
+    }
+    .him{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .browse{
+        display: flex;
+        flex-direction: row;
+    }
+    .her{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .pics{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+    }
+
+    .img1{
+        display: grid;
+        grid-template-rows: auto;
+        width: 2%;
+        height: 2%;
+    }
+    .jaky1{
+        width: 70px;
+        height: 70px;
+        display: grid grid;
+    }
+    .lady1{
+        width: 130px;
+    }
+    .img1{
+        width: 240px;
+        height: 250px;
+    }
+    .sit{
+        width: 270px;
+        height: 250px;
+    }
+    .contact{
+        display: grid;
+        grid-template-rows: auto;
+    }
+    
+    }
+
+
+
+
