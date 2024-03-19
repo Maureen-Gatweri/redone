@@ -1,6 +1,8 @@
 .nav{
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    color: black;
 
 }
 .icons{
@@ -78,6 +80,10 @@
     grid-template-columns: auto auto auto;
     
 }
+.contact{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
 
 
 
@@ -87,12 +93,18 @@
 
 
 
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 890px){
     .nav{
         border: 1px;
         display: flex;
         flex-direction: row;
+        display: grid;
+        grid-template-rows: auto;
+        text-decoration: none;
     
+    }
+    .navbar1{
+        text-decoration: overline;
     }
     .icons{
         margin-left: 70%;
@@ -141,6 +153,7 @@
        
         display: grid;
         grid-template-columns: auto auto;
+        flex-wrap: wrap wrap;
     }
     .icons{
         margin-left: 70%;
@@ -180,8 +193,8 @@
         height: 2%;
     }
     .jaky1{
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         display: grid grid;
     }
     .lady1{
@@ -192,14 +205,18 @@
         height: 250px;
     }
     .sit{
-        width: 270px;
-        height: 250px;
+        width: 300px;
+        height: 230px;
     }
     .contact{
-        display: grid;
-        grid-template-rows: auto;
+        display: grid grid;
+       
     }
-    
+    .cart{
+        display: flex;
+        flex-direction: row;
+        
+    }
     }
 
 
