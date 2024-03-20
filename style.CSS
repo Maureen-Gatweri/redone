@@ -93,7 +93,7 @@
 
 
 
-@media only screen and (max-width: 890px){
+@media only screen and (max-width: 932px){
     .nav{
         border: 1px;
         display: flex;
@@ -193,8 +193,8 @@
         height: 2%;
     }
     .jaky1{
-        width: 60px;
-        height: 60px;
+        width: 90px;
+        height: 90px;
         display: grid grid;
     }
     .lady1{
@@ -209,13 +209,17 @@
         height: 230px;
     }
     .contact{
-        display: grid grid;
+        display: grid;
+        grid-template-columns: auto;
        
     }
     .cart{
         display: flex;
         flex-direction: row;
         
+    }
+    h1{
+        font-size: smaller;
     }
     }
 
